@@ -13,7 +13,7 @@ export const NavigationLayout = ({children, showFooter}) => {
                 </div>
             </div>
 
-            <Footer />
+            {/*<Footer />*/}
         </div>
     );
 };
