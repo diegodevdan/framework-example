@@ -1,0 +1,7 @@
+.main {
+    @apply h-[86px] bg-white text-black flex justify-center items-center;
+}
+
+.contImage > img{
+    @apply w-[256px]
+}
