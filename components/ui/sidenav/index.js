@@ -4,16 +4,18 @@ import Link from "next/link";
 import {SidenavOptions} from "../../../data";
 import {Button, Text} from '@mantine/core';
 import {openConfirmModal} from "@mantine/modals";
+import Image from "next/image";
+import account from '../../../public/statics/images/account.png';
 
 export const Sidenav = () => {
 
     const openModal = () => openConfirmModal({
-        title: 'Please confirm your action',
+        title: 'Account info',
         children: (
-            <Text size="sm">
-                This action is so important that you are required to confirm it with a modal. Please click
-                one of these buttons to proceed.
-            </Text>
+            <Image
+                src={account}
+                alt='account'
+            />
         ),
         labels: { confirm: 'Confirm', cancel: 'Cancel' },
         onCancel: () => console.log('Cancel'),
