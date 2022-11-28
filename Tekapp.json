@@ -1,0 +1,53 @@
+{
+  "variant": "v2",
+  "globalComponents": [
+    {
+      "name": "sidenav",
+      "linkOptions": [
+        {
+          "route": "/",
+          "title": "home",
+          "description": "Lorem Lorem Lorem Lorem",
+          "icon": "<IconHome />"
+        },
+        {
+          "route": "/about",
+          "title": "about",
+          "description": "Lorem Lorem Lorem Lorem",
+          "icon": "<IconHelp />"
+        },
+        {
+          "route": "/credit",
+          "title": "Credit form",
+          "description": "Lorem Lorem Lorem Lorem",
+          "icon": "<IconMoney />",
+        }
+      ]
+    },
+    {
+      "name": "navbar",
+      "logo": "logo.png",
+      "button": {
+        "title": "sign in",
+        "color": "blue",
+        "variant": "filled",
+        "redirect": "/login"
+      }
+    }
+  ],
+  "page": {
+    "name": "Credit Form",
+    "components": {
+      "name": "form",
+      "variant": "formV3",
+      "elements": {
+        "header": {
+          "title": "User Credit"
+        },
+        "firstInput": {
+
+        }
+      }
+    }
+  }
+}

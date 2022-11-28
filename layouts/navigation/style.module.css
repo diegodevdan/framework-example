@@ -1,0 +1,11 @@
+.main {
+
+}
+
+.childrenContainer {
+    @apply flex;
+}
+
+.childrenContainer > div {
+    @apply pt-5 px-10;
+}
