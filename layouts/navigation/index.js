@@ -1,14 +1,16 @@
 import React from 'react';
 import {Navbar, Sidenav} from "../../components";
+import styles from './style.module.css';
 
 export const NavigationLayout = ({children}) => {
     return (
-        <div>
+        <div className={styles.main}>
             <Navbar />
-
-            <div>
+            <div className={styles.childrenContainer}>
                 <Sidenav />
-                {children}
+                <div>
+                    {children}
+                </div>
             </div>
         </div>
     );

@@ -1,0 +1,8 @@
+.main{
+    border-right: 2px solid black;
+    @apply bg-[#1e2251] w-[300px] h-[calc(100vh-86px)];
+}
+
+.main > li {
+    @apply py-2 hover:opacity-90;
+}

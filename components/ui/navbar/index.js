@@ -12,7 +12,6 @@ export const Navbar = () => {
                     alt='logo'
                 />
             </div>
-
         </div>
     );
 };
