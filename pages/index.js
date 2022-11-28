@@ -3,7 +3,9 @@ import {NavigationLayout} from "../layouts";
 export default function Home() {
   return (
     <div>
-      <NavigationLayout />
+        <NavigationLayout>
+            Account
+        </NavigationLayout>
     </div>
   )
 }
