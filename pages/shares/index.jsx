@@ -1,10 +1,10 @@
 import {NavigationLayout} from "../../layouts";
 
 
-export default function ServicesPage() {
+export default function SharesPage() {
     return (
         <NavigationLayout>
-            <h1>Services</h1>
+            <h1>Shares</h1>
         </NavigationLayout>
     )
 }

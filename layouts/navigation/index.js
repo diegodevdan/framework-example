@@ -1,8 +1,8 @@
 import React from 'react';
-import {Navbar, Sidenav} from "../../components";
+import {Footer, Navbar, Sidenav} from "../../components";
 import styles from './style.module.css';
 
-export const NavigationLayout = ({children}) => {
+export const NavigationLayout = ({children, showFooter}) => {
     return (
         <div className={styles.main}>
             <Navbar />
@@ -12,6 +12,8 @@ export const NavigationLayout = ({children}) => {
                     {children}
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 };
